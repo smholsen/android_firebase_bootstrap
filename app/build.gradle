@@ -3,22 +3,23 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 27
     defaultConfig {
-        applicationId "your.application.Id"
+        applicationId "com.uname.your_application"
         minSdkVersion 21
         targetSdkVersion 27
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
-    /*signingConfigs {
+    signingConfigs {
+        /*
         key {
-            // Fill these out so that you can debug with a signed APK, allowing you to
             keyAlias ''
             keyPassword ''
             storeFile file('')
             storePassword ''
         }
-    }*/
+        */
+    }
     buildTypes {
         /*debug {
             signingConfig signingConfigs.key

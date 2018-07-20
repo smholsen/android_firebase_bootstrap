@@ -7,7 +7,7 @@
     android:gravity="center_horizontal"
     android:orientation="vertical"
     android:background="@color/darkerOrange"
-    tools:context="com.username.your_application.loggedIn.AddPetActivity">
+    tools:context="com.uname.your_application.loggedIn.AddPetActivity">
 
     <!-- Dummy item to prevent EditText from receiving focus -->
     <LinearLayout
@@ -111,7 +111,7 @@
                 android:textStyle="bold"/>
         </LinearLayout>
 
-        <com.username.your_application.global.customViews.OverriddenEditText
+        <com.uname.your_application.global.customViews.OverriddenEditText
             android:id="@+id/add_pet_animal_type_edit_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -141,7 +141,7 @@
             android:textSize="20sp"
             android:textStyle="bold" />
 
-        <com.username.your_application.global.customViews.OverriddenEditText
+        <com.uname.your_application.global.customViews.OverriddenEditText
             android:id="@+id/add_pet_gender_edit_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -206,7 +206,7 @@
                 android:textStyle="bold"/>
         </LinearLayout>
 
-        <com.username.your_application.global.customViews.OverriddenEditText
+        <com.uname.your_application.global.customViews.OverriddenEditText
             android:id="@+id/add_pet_animal_birth_edit_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
