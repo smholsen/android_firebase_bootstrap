@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">Petkeeper</string>
+
+    <string name="facebook_app_id">687459854975727</string>
+    <string name="fb_login_protocol_scheme">fb687459854975727</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="logo">Logo</string>
+    <string name="login">LOG IN</string>
+    <string name="alrdy_user">Already a user?</string>
+    <string name="continue_with_facebook">CONTINUE WITH FACEBOOK</string>
+    <string name="sign_up_free">SIGN UP FREE</string>
+    <string name="next_caps">NEXT</string>
+    <string name="let_s_get_started">Let\'s get started</string>
+    <string name="what_s_your_email">What\'s your email?</string>
+    <string name="you_must_confirm_this_email">You must confirm this email later.</string>
+    <string name="set_a_password">Set a password</string>
+    <string name="must_be_at_least_8_characters">Must be at least 8 characters.</string>
+    <string name="title_activity_login2">Sign in</string>
+    <string name="continue_with">Continue with</string>
+    <string name="request_manual_mail">Could not get mail, Please enter manually</string>
+    <string name="soon_done_now">Soon done now!</string>
+    <string name="minimum_3_years_old">Must be at least 3 years old</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="pref_not_say">I prefer not to say</string>
+    <string name="what_is_your_date_of_birth">What is your date of birth?</string>
+    <string name="gender">Gender</string>
+    <string name="title_activity_logged_in">LoggedInActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_account">Account</string>
+    <string name="sign_up">Sign Up!</string>
+    <string name="sign_up_caps">SIGN UP</string>
+    <string name="must_verify_email">You must verify your email before logging in</string>
+    <string name="don_t_worry_i_ll_be_waiting_here">Don\'t worry, I\'ll be waiting here!</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="checking_again_in">Checking again in</string>
+    <string name="log_in">Log In</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="please_wait">Please Wait</string>
+    <string name="logging_in">Logging in...</string>
+    <string name="log_in_caps">LOG IN</string>
+    <string name="waiting">Waiting</string>
+    <string name="please_verify_your_email">Please verify your email</string>
+    <string name="i_ll_be_waiting_for_you_here">I\'ll be waiting for you here</string>
+    <string name="we_just_sent_you_a_verification_email">We just sent you a verification email</string>
+    <string name="check_your_inbox_it_might_take_a_few_minutes">Check your inbox, it might take a few minutes</string>
+    <string name="you_have_already_made_a_user_by_email_you_can_connect_this_one_to_your_facebook_after_you_have_signed_in">You have already made a user by Email. You can connect this one to your Facebook after you have signed in.</string>
+    <string name="log_out">Log Out</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="pets">Pets</string>
+    <string name="name">Name</string>
+    <string name="let_s_add_your_pet">Let\'s add your pet</string>
+    <string name="nickname_or_full_name_that_s_up_to_you">Nickname or full name, that\'s up to you!</string>
+    <string name="loading">Loading...</string>
+    <string name="questionMark">\?</string>
+    <string name="select_a_gender">Select a gender</string>
+    <string name="dog">Dog</string>
+    <string name="cat">Cat</string>
+    <string name="born_questionMark">born?</string>
+    <string name="he">he</string>
+    <string name="she">she</string>
+    <string name="add_pet_caps">ADD PET</string>
+    <string name="hang_on">Hang on...</string>
+    <string name="adding_pet">Adding your pet</string>
+    <string name="example_pet">Example Pet</string>
+    <string name="todo">TODO</string>
+</resources>

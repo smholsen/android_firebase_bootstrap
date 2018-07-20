@@ -1,0 +1,215 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/loginRootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@color/darkerOrange"
+    tools:context="com.username.your_application.entrance.LogInActivity">
+
+    <!-- Dummy item to prevent EditText from receiving focus -->
+    <LinearLayout
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_width="0px"
+        android:layout_height="0px"/>
+
+    <TextView
+        android:id="@+id/loginText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/log_in"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"/>
+
+    <LinearLayout
+        android:id="@+id/stageOneOfLogIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/loginText"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/email"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/emailLogInEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_edittext_states"
+            android:drawableEnd="@mipmap/transparent"
+            android:inputType="textEmailAddress"
+            android:paddingBottom="2dp"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:paddingTop="2dp"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:padding="5dp"
+            android:text="@string/password"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/passwordLogInEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_edittext_states"
+            android:inputType="textPassword"
+            android:paddingBottom="2dp"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:paddingTop="2dp"
+            android:drawableEnd="@mipmap/transparent"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/stageTwoOfLogIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_alignTop="@id/stageOneOfLogIn"
+        android:layout_alignBottom="@id/doLogInBtn"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true">
+        <com.github.ybq.android.spinkit.SpinKitView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/spinner"
+            style="@style/SpinKitView.Large.CubeGrid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            app:SpinKit_Color="@color/white" />
+
+        <TextView
+            android:id="@+id/loggingInStaticText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/please_wait"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/spinner"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/weAreLoggingYouInAsFastAsWeCan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/loggingInStaticText"
+            android:layout_centerHorizontal="true"
+            android:text="@string/logging_in"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/stageThreeOfLogIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_alignTop="@id/stageOneOfLogIn"
+        android:layout_alignBottom="@id/doLogInBtn"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true">
+        <com.github.ybq.android.spinkit.SpinKitView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/spinner2"
+            style="@style/SpinKitView.Large.CubeGrid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            app:SpinKit_Color="@color/white" />
+
+        <TextView
+            android:id="@+id/stageThreeTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/please_verify_your_email"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/spinner2"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@id/dontWorryWellWaitID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/stageThreeTitle"
+            android:layout_centerHorizontal="true"
+            android:text="@string/i_ll_be_waiting_for_you_here"
+            android:textColor="@color/white" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dontWorryWellWaitID"
+            android:layout_centerHorizontal="true">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/checking_again_in"
+                android:textColor="@color/white" />
+            <TextView
+                android:id="@+id/remainingWaitingForEmailVerification"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:textColor="@color/white"
+                android:text="5"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <com.rilixtech.materialfancybutton.MaterialFancyButton
+        android:id="@+id/doLogInBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/stageOneOfLogIn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="@string/log_in_caps"
+        fancy:mfb_defaultColor="@color/white"
+        fancy:mfb_focusColor="@color/darkWhite"
+        fancy:mfb_radius="30dp"
+        fancy:mfb_textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/explanationTextLogIn"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/doLogInBtn"
+        android:paddingStart="30dp"
+        android:paddingEnd="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/you_have_already_made_a_user_by_email_you_can_connect_this_one_to_your_facebook_after_you_have_signed_in"
+        android:textColor="@color/white" />
+</RelativeLayout>

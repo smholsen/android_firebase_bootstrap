@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#d0000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#d0000000</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="faceBookBlue">#3b5998</color>
+    <color name="lighterFaceBookBlue">#4b69a8</color>
+    <color name="darkOrange">#de8830</color>
+    <color name="darkerOrange">#ce7820</color>
+    <color name="lighterOrange">#fea850</color>
+    <color name="darkWhite">#dddddd</color>
+    <color name="fox_red">#dd6845</color>
+    <color name="darker_fox_red">#bd4825</color>
+</resources>
