@@ -14,4 +14,4 @@ If you want to use the project, I encourage you to fork it and modify it to fit 
 - Download and replace google-services.json from Firebase.
 - Change the Signing Configs in the application build.gradle to match yours.
 - Change the package directory in app/src/main/java/com/username/application/entrance/tools/GetDebugHash.java
-
+![gif](https://thumbs.gfycat.com/DeadFelineCondor-size_restricted.gif "gif")
